@@ -1,0 +1,60 @@
+body {
+ 
+  background-color: bisque;
+}
+
+button {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  width: 100px;
+  height: 80px;
+  color: black;
+  background-color: rgb(154, 236, 161);
+  border-radius: 25;
+  margin-bottom: 50px;
+}
+
+button:disabled {
+  background-color: #e04040;
+}
+
+button:hover,
+button:focus {
+  background-color: #2bcf2b;
+
+
+}
+input {
+  width: 200px;
+  height: 80px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color:black;
+  background-color: rgb(175, 243, 136);
+  border: 2px solid olive;
+  margin-right: 50px;
+  border-radius: 25;
+}
+
+
+.timer {
+  display: flex;
+  justify-content:center;
+ 
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 28px;
+  align-items: center;
+  margin-right: 20px;
+  width: 150px;
+  padding: auto;
+  margin-right: 20px;
+  color: black;
+  border: 1px solid olive;
+  border-radius: 25;
+}
