@@ -1,7 +1,7 @@
 import Notiflix from 'notiflix';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import '../css/common.css';
-
+import '../css/timer.css';
 const formEl = document.querySelector('.form');
 const delayEl = document.querySelector('[name="delay"]');
 const stepEl = document.querySelector('[name="step"]');
