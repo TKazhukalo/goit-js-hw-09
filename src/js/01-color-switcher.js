@@ -1,4 +1,5 @@
 import '../css/common.css';
+import '../css/timer.css';
   const bodyEl = document.querySelector('body');
   const btnStart = document.querySelector('[data-start]');
 const btnStop = document.querySelector('[data-stop]');
